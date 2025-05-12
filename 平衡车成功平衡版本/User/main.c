@@ -8,6 +8,7 @@
 #include "PWM.h"
 #include "Motor.h"
 #include "Encoder.h"
+float learn=5.12;
 float Kp=-420,Ki=0,Kd=-1900;//Kp为负值，Kd为负值  -420 -1800
 float VKp=180,VKi=0.9;
 extern int cnt;
